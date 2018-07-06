@@ -25,7 +25,7 @@ function createTaskElement(task) {
 	li.appendChild(document.createTextNode(task || taskInput.value));
 
 	link.className = 'delete-item secondary-content';
-	link.innerHTML = '<i class="fa fa-remove"></i>';
+	link.innerHTML = '<i class="fa fa-remove" style="cursor:pointer;"></i>';
 	li.appendChild(link);
 
 	taskList.appendChild(li);
